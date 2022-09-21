@@ -1,12 +1,4 @@
-body {
-    margin: 0;
-    background-color: black;
-    color: yellow;
-}
-
-div {
-    width: min(100vw - 2em, 62em);
-    margin-inline: auto;
-    text-align: center;
-    background-color: grey;
-}
+@import 'reset';
+@import 'fonts';
+@import 'variables';
+@import 'layout';
