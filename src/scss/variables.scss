@@ -2,8 +2,9 @@
   // ***********************************
   //  fonts and text
   // ***********************************
-  --root-primary-font: 'Fira Sans';
-  --root-default-font-size: 16px;
+  --root-font-size: 16px;
+
+  --ff-primary: 'Fira Sans', sans-serif;
 
   --fs-300: 1rem; // 16
   --fs-400: 1.25rem; // 20
@@ -25,10 +26,13 @@
   // ***********************************
   //  colors
   // ***********************************
-  --color-primary: #980EE6;
-  --color-secondary: #B1E7F8;
-  --color-black: #111111;
-  --color-light-grey: #F3F3F3;
+  --c-primary: #980EE6;
+  --c-secondary: #B1E7F8;
+  --c-black: #111111;
+  --c-white: #fff;
+  --c-light-grey: #F3F3F3;
+  --c-medium-grey: #525252;
+  --c-dark-grey: #313131;
 
 
 
