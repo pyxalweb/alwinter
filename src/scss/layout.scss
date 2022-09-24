@@ -1,6 +1,69 @@
+// ***********************************
+//  Body
+// ***********************************
 body {
     font-family: var(--ff-primary);
     font-size: var(--root-font-size);
     color: var(--c-black);
     background-color: var(--c-light-grey);
+}
+
+
+
+
+// ***********************************
+//  Text
+// ***********************************
+%text__logo {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-400);
+  color: var(--c-black);
+  text-decoration: none;
+  text-shadow: 3px 3px 0px var(--c-secondary);
+}
+
+%text__nav_links {
+  font-size: var(--fs-400);
+  color: var(--c-primary);
+  text-decoration: none;
+}
+
+%text__heading_1 {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-700);
+  color: var(--c-black);
+  text-shadow: 3px 3px 0px var(--c-secondary);
+}
+
+%text__heading_2 {
+
+}
+
+%text__heading_3 {
+
+}
+
+%text__paragraph_1 {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-300);
+  color: var(--c-black);
+}
+
+
+
+
+// ***********************************
+//  Buttons
+// ***********************************
+%button {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  color: var(--c-primary);
+  text-decoration: none;
+
+  border: 3px solid var(--c-primary);
+  border-radius: 7px;
+
+  // Todo:
+  // Finish button styling
 }

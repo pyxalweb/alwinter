@@ -1,0 +1,55 @@
+// ***********************************
+//  Header
+// ***********************************
+.header {
+  background-color: var(--c-white);
+}
+
+.header__container {
+  width: min(1250px, 100vw - 1em);
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+// ***********************************
+//  Logo
+// ***********************************
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  a {
+      @extend %text__logo;
+  }
+}
+
+
+
+
+// ***********************************
+//  Navigation
+// ***********************************
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav__container {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+  @extend %button;
+}

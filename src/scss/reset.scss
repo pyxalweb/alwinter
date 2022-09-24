@@ -1,5 +1,6 @@
 // https://piccalil.li/blog/a-modern-css-reset
 // Modification suggests by Kevin Powell
+// Additional modifications by Alex Winter for LET Group
 
 /* Box sizing rules */
 *,
@@ -48,6 +49,7 @@ img,
 picture,
 svg {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
